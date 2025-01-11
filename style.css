@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    background-color: #F1F1F3;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/* Shared Styles */
+.normal-para{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    background-color: #F1F1F3;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    background-color: #F1F1F3;
+}
+.section-mini-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.btn-filled{
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+.btn-filled a{
+    background-color: #006A50;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.card{
+    background-color: #ffffff;
+    border: 1px solid #F1F1F3;
+    height: 250px;
+    width: 300px;
+    border-radius: 16px;
+}
+.table-data{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-btn{
+    border: 3px solid #006A50;
+    border-radius: 3px;
+    background-color: #F1F1F3;
+}
+.signup-btn a{
+    text-decoration: none;
+    color: #006A50;
+}
+.hero{
+    display: flex;
+    background-color: #C6E4D6;
+    max-height: 580px;
+    max-width: 1280px;
+}
+.header-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pillar{
+    display: flex;
+    gap: 24px;
+}
+.sect-1{
+    margin-bottom: 80px;
+}
+.sect-1>.pillar>.card> img,.card-title,.normal-para{
+    background-color: #ffffff;
+}
+.sect-1>.pillar>.card> img{
+    border-radius: 16px;
+}
+.vision-sect{
+    margin-bottom: 80px;
+}
+.vis-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.vision-card-1{
+    width: 400px;
+    height: 320px;
+    background-color: #81B4FC;
+    border-radius: 16px;
+}
+.vision-card-1 img{
+    background-color: #81B4FC;
+    border-radius: 14px;
+}
+.vision-card-2{
+    width: 400px;
+    height: 320px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.vision-card-2 img{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.vision-card-3{
+    width: 400px;
+    height: 320px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+.vision-card-3 img{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+.quote{
+    width: 120px;
+    height: 250px;
+    border: 1px solid #0E0E0E;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+
+
+
