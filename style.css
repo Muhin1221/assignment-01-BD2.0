@@ -29,11 +29,12 @@
 .btn-filled{
     background-color: #006A50;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     border: none;
     border-radius: 5px;
     padding: 5px;
+    height: 50px;
     width: 130px;
     display: inline-block;
 }
@@ -98,6 +99,7 @@ nav{
     border-bottom-right-radius: 16px;
 }
 .header-flex{
+    padding: 117px 64px 117px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +135,7 @@ nav{
     height: 320px;
     background-color: #81B4FC;
     border-radius: 16px;
-    padding: 20px;
+    padding: 40px;
 }
 .vision-card-1 .btn-filled{
     background-color: #5490F5;
@@ -146,7 +148,7 @@ nav{
     border-radius: 14px;
 }
 .vision-card-2{
-    padding: 20px;
+    padding: 40px;
     width: 464px;
     height: 320px;
     background-color: #C6E4D6;
@@ -165,7 +167,7 @@ nav{
     border-radius: 16px;
 }
 .vision-card-3{
-    padding: 20px;
+    padding: 40px;
     width: 464px;
     height: 320px;
     background-color: #F7EBCF;
@@ -211,6 +213,16 @@ nav{
 }
 .box-content{
     background-color: #ffffff;
+}
+.box-content .al-jazeera{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+.box-content .date-time-aljazeera{
+    display: flex;
+    gap: 15px;
 }
 .box-2{
     display: flex;
@@ -286,21 +298,31 @@ nav{
     width: 600px;
     height: 55px;
     background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
 
 }
 footer{
     background-color: #ffffff;
     width: 1600px;
     height: 230px;
-    display: flex;
     gap: 26px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 32px;
+}
+footer hr{
+    margin-left: 240px;
+    width: 75%;
+    opacity: 0.5;
 }
 .icons{
     background-color: #ffffff;
     display: flex;
+    justify-content: center;
+    margin-top: 32px;
     gap: 23px;
 
 }
@@ -308,8 +330,6 @@ footer{
 .icons img{
     background-color: #ffffff;
 }
-
-
 
 
 
