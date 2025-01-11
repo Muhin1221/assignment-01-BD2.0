@@ -55,7 +55,7 @@
     background-color: #ffffff;
     border: 1px solid #F1F1F3;
     height: 250px;
-    width: 300px;
+    width: 265px;
     border-radius: 16px;
 }
 .table-data{
@@ -65,12 +65,15 @@
 }
 /* Header */
 nav{
+    width: 1280px;
+    margin: 10px 160px 0px 160px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .signup-btn{
     border: 3px solid #006A50;
-    border-radius: 3px;
+    border-radius: 14px;
     background-color: #F1F1F3;
     width: 115px;
     height: 50px;
@@ -86,9 +89,13 @@ nav{
     max-width: 1280px;
     margin-top: 20px;
     margin-left: 160px;
+    margin-bottom: 80px;
+    border-radius: 16px;
 }
 .hero img{
     background-color: #C6E4D6;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 .header-flex{
     display: flex;
@@ -99,7 +106,7 @@ nav{
 }
 .pillar{
     display: flex;
-    gap: 24px;
+    gap: 28px;
     padding: 0px 160px;
 }
 .sect-1{
@@ -176,7 +183,7 @@ nav{
 }
 .quote{ 
     width: 1200px;
-    height: 250px;
+    height: 290px;
     /*margin-left: 250px;*/
     border: 1px solid #0E0E0E;
     border-radius: 16px;
@@ -257,13 +264,16 @@ nav{
     width: 1280px;
     height: 380px;
     text-align: center;
+    border-radius: 16px;
 }
 .newsteller .normal-para-1{
     text-align: center;
-    width: 900px;
+    width: 750px;
 }
 .news{
-    padding: 70px 200px 70px 200px;
+    text-align: center;
+    margin: 80px 265px 203px 265px;
+    width: 750px;
     background-color: #C6E4D6;
 }
 .news-input-btn{
@@ -280,6 +290,7 @@ nav{
 }
 footer{
     background-color: #ffffff;
+    width: 1600px;
     height: 230px;
     display: flex;
     gap: 26px;
