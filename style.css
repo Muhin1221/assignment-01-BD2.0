@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    /* padding: 10px 20px 10px 20px; */
     background-color: #F1F1F3;
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -28,19 +29,21 @@
 .btn-filled{
     background-color: #006A50;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 12px;
     font-weight: 600;
     border: none;
     border-radius: 5px;
-    width: 300px;
+    padding: 5px;
+    width: 130px;
     display: inline-block;
 }
 .btn-filled a{
     background-color: #006A50;
     text-decoration: none;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 16px;
     font-weight: 600;
+    padding: 5px;
 }
 .card-title{
     font-size: 20px;
@@ -48,6 +51,7 @@
     color: #0E0E0E;
 }
 .card{
+    padding: 15px;
     background-color: #ffffff;
     border: 1px solid #F1F1F3;
     height: 250px;
@@ -80,6 +84,8 @@ nav{
     background-color: #C6E4D6;
     /*max-height: 580px;*/
     max-width: 1280px;
+    margin-top: 20px;
+    margin-left: 160px;
 }
 .hero img{
     background-color: #C6E4D6;
@@ -89,6 +95,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     background-color: #C6E4D6;
+    border-radius: 16px;
 }
 .pillar{
     display: flex;
@@ -115,39 +122,62 @@ nav{
     margin-bottom: 32px;
 }
 .vision-card-1{
-    width: 412px;
+    width: 464px;
     height: 320px;
     background-color: #81B4FC;
     border-radius: 16px;
+    padding: 20px;
+}
+.vision-card-1 .btn-filled{
+    background-color: #5490F5;
+}
+.vision-card-1 .btn-filled a{
+    background-color: #5490F5;
 }
 .vision-card-1 img{
     background-color: #81B4FC;
     border-radius: 14px;
 }
 .vision-card-2{
-    width: 412px;
+    padding: 20px;
+    width: 464px;
     height: 320px;
     background-color: #C6E4D6;
     border-radius: 16px;
+}
+.vision-card-2 .btn-filled{
+    background-color: #09A15C;
+}
+.vision-card-2 .btn-filled a{
+    
+        background-color: #09A15C;
+    
 }
 .vision-card-2 img{
     background-color: #C6E4D6;
     border-radius: 16px;
 }
 .vision-card-3{
-    width: 412px;
+    padding: 20px;
+    width: 464px;
     height: 320px;
     background-color: #F7EBCF;
     border-radius: 16px;
+}
+.vision-card-3 .btn-filled{
+    background-color: #FFC239;
+}
+.vision-card-3 .btn-filled a{
+    background-color: #FFC239;
 }
 .vision-card-3 img{
     background-color: #F7EBCF;
     border-radius: 16px;
 }
-.quote{
-    width: 120px;
+.quote{ 
+    width: 1200px;
     height: 250px;
-    margin-left: 160px;
+    /*margin-left: 250px;*/
     border: 1px solid #0E0E0E;
     border-radius: 16px;
     background-color: #ffffff;
@@ -228,11 +258,16 @@ nav{
     height: 380px;
     text-align: center;
 }
+.newsteller .normal-para-1{
+    text-align: center;
+    width: 900px;
+}
 .news{
     padding: 70px 200px 70px 200px;
     background-color: #C6E4D6;
 }
 .news-input-btn{
+    background-color: #C6E4D6;
     display: flex;
     justify-content: center;
     margin-bottom: 24px;
