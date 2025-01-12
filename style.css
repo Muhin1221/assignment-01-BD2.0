@@ -1,3 +1,4 @@
+/* Some texts for paragraph was copied from google. Like the texts in recent news, quotes of Dr. Yunus. */
 *{
     margin: 0;
     /* padding: 10px 20px 10px 20px; */
@@ -38,6 +39,9 @@
     width: 130px;
     display: inline-block;
 }
+.btn-filled :hover{
+    background-color: grey;
+}
 .btn-filled a{
     background-color: #006A50;
     text-decoration: none;
@@ -46,6 +50,7 @@
     font-weight: 600;
     padding: 5px;
 }
+
 .card-title{
     font-size: 20px;
     font-weight: bold;
@@ -79,7 +84,11 @@ nav{
     width: 115px;
     height: 50px;
 }
+.signup-btn :hover{
+    background-color: #09A15C;
+}
 .signup-btn a{
+    font-size: 20px;
     text-decoration: none;
     color: #006A50;
 }
@@ -191,6 +200,43 @@ nav{
     border-radius: 16px;
     background-color: #ffffff;
 }
+/* Table */
+.opinion {
+    width: 1280px;
+    margin-left: 160px;
+    border-radius: 16px;
+}
+.table-body{
+    margin-left: 160px;
+    margin-bottom: 38px;
+    width: 1280px;
+    border-collapse: collapse;
+}
+.table th,td{
+    border: 1px solid #0E0E0E;
+    border-collapse: collapse;
+}
+.table button{
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    border: .5px solid #0E0E0E;
+}
+.table th{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #C6E4D6;
+}
+.table td{
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
 .recent-news{
     width: 1280px;
     margin-left: 160px;
@@ -314,7 +360,7 @@ footer p{
     margin-bottom: 32px;
 }
 footer hr{
-    margin-left: 240px;
+    margin-left: 205px;
     width: 75%;
     opacity: 0.5;
 }
